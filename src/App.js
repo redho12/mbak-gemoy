@@ -1,7 +1,20 @@
 import './App.css';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Button from 'react-bootstrap/Button';
+
+
+
 function App() {
+    const phoneNumber = '6282290814148'; // Ganti dengan nomor telepon penerima
+  const message = 'Hello, this is a WhatsApp message!'; // Ganti dengan pesan yang diinginkan
+
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+
+  const openWhatsApp = () => {
+    window.open(whatsappUrl);
+  };
+
   return (
     <>
     {/* <!-- Navigation--> */}
@@ -205,9 +218,14 @@ Fitri adalah contoh nyata seorang pengusaha yang menggabungkan hasrat pribadi de
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-case">Hubungi Kami (WhatApp)</h2>
+                <div className="container mt-5">
+    </div>
             </div>
             <div class="text-center">
                 <h3 class="section-heading text-case">0822 9081 4148</h3>
+                <Button variant="primary" onClick={openWhatsApp}>
+        Chat Dengan WhatApp
+      </Button>
                 <h4 class="section-subheading text-muted">Fitri Gemoy.</h4>
             </div>
         </div>
