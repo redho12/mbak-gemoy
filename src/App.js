@@ -145,7 +145,7 @@ function App() {
                 <li class="timeline-inverted">
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.png" alt="..." /></div>
                     <div class="timeline-panel">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1346.166351616359!2d100.6976173858468!3d0.8367910544725655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d4cb19f6edd52f%3A0xe738a299d5618a8c!2sWarung%20Nyantai%20Mbak%20Gemoy!5e1!3m2!1sid!2sid!4v1692617006050!5m2!1sid!2sid" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
                         <div class="timeline-body"><p class="text-muted">Untuk Lokasi SMOOTHIES MBAK GEMOY berlokasi di Desa Bagan Tujuh RT/RW 007/004 Kecamatan Kunto Darussalam Kabupaten Rokan Hulu Riau.</p></div>
                     </div>
                 </li>
