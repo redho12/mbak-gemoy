@@ -14,6 +14,12 @@ function App() {
     window.open(whatsappUrl);
   };
 
+  const facebookPageUrl = 'https://www.facebook.com/profile.php?id=100016704521545&mibextid=LQQJ4d'; // Ganti dengan URL halaman Facebook Anda
+
+  const openFacebookPage = () => {
+    window.open(facebookPageUrl);
+  };
+
   return (
     <>
     {/* <!-- Navigation--> */}
@@ -236,6 +242,9 @@ Fitri adalah contoh nyata seorang pengusaha yang menggabungkan hasrat pribadi de
         Chat Dengan WhatApp
       </Button>
                 <h4 class="section-subheading text-muted">Fitri Gemoy.</h4>
+        <Button variant="primary" onClick={openFacebookPage}>
+          Kunjungi Halaman Facebook
+        </Button>
             </div>
         </div>
     </section>
