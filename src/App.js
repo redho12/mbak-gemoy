@@ -1,14 +1,12 @@
 import './App.css';
 //import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 import Button from 'react-bootstrap/Button';
 
 
 
 function App() {
     const phoneNumber = '6282290814148'; // Ganti dengan nomor telepon penerima
-  const message = 'Hello, this is a WhatsApp message!'; // Ganti dengan pesan yang diinginkan
+  const message = 'Hello, Bisa Terima Pesanan?'; // Ganti dengan pesan yang diinginkan
 
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
 
