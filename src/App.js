@@ -166,7 +166,7 @@ function App() {
                     <div className="map-container">
           <iframe
             title="Embedded Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3337.0298405593317!2d100.69951926469918!3d0.8381500100219904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d4cb19f6edd52f%3A0xe738a299d5618a8c!2sWarung%20Nyantai%20Mbak%20Gemoy!5e1!3m2!1sid!2sid!4v1692624142295!5m2!1sid!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3672.535741241868!2d100.69425577496496!3d0.8273799991645916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwNDknMzguNiJOIDEwMMKwNDEnNDguNiJF!5e1!3m2!1sid!2sid!4v1695000353695!5m2!1sid!2sid"
             width="600"
             height="450"
             frameBorder="0"
